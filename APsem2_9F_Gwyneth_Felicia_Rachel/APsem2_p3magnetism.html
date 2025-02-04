@@ -1,0 +1,262 @@
+<html lang="en">
+<head>
+<title>Magnetism</title>  
+<style>
+ header{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    padding: 20px;
+    background-color: rgba(29, 38, 122, 0.808);
+    color:#ffffff;
+    border: 2px solid rgba(29, 38, 122, 0.808);
+ }
+ body{
+    background-color: #ffffff; 
+    background-image: url("images/Magnetism.png");
+    background-size: 1500px 160px;
+    background-repeat: repeat-x;
+ }
+ .hyperlink{
+        font-size: 25px;
+        padding: 10px;
+        text-decoration: none;
+        position: relative;
+        margin-top: 5px;
+        text-align: right;
+        word-spacing: 5px;
+    }
+    
+    a {
+        text-decoration: none;
+        border: 2px solid rgba(29, 38, 122, 0.808);
+        background-color: rgba(29, 38, 122, 0.808);
+        color:#ffffff;
+        font-family: monospace;
+        padding: 2px;
+        letter-spacing: 1px;
+    }
+
+    p{
+      font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 40px;
+    }
+
+    #defenition2 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    #poles{
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    li{
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+    #permanent{
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+      padding: 15px;
+      border: 2px solid #000000;
+    }
+    #temporary{
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+      border: 2px solid #000000;
+      padding: 15px;
+    } 
+
+    #magneticfield {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    
+    .fieldimg {
+      position:absolute;
+      margin-left: 790px;
+      margin-top: -150px;
+    }
+
+    #inducedmagnetism {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+    #electromagnetism {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    
+    #electricbell {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+      text-align: justify;
+    }
+
+    #lorenzforce {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+    .forceimg {
+      position:absolute;
+      margin-left: 30px;
+      margin-top: -150px;
+    }
+
+   #electricmotor {
+      font-family: monospace;
+      font-size: 20px;
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+    
+    #continue{
+      position: fixed;
+      bottom: 0px;
+      right: 0px;
+      padding: 20px;
+      background-color: rgba(29, 38, 122, 0.808);
+      border: 2px solid rgba(29, 38, 122, 0.808);
+      font-size: 35px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffffff;
+      font-weight: bold;
+      font-style: italic;
+      z-index: 9999;
+        }
+
+        #continue:hover {
+            background-color: rgba(23, 40, 190, 0.808);
+        }
+</style>
+<div>
+  <button id="continue">CONTINUE</button>
+</div>
+
+<script>
+document.getElementById("continue").addEventListener("click", function () {window.location.href = "APsem2_p4dynamicelectricity.html";})
+</script>
+</head>
+<body>
+
+  <table border="0px">
+    <div class="hyperlink">
+      <a href="index.html">Home</a>
+        <a href="APsem2_p1momentum.html">Momentum</a>
+        <a href="APsem2_p2thermalphysics.html">Thermal Physics</a>
+        <a href="APsem2_p3magnetism.html">Magnetism</a>
+        <a href="APsem2_p4dynamicelectricity.html">Dynamic Electricity</a>
+        <a href="APsem2_p5quizizz.html">Quizizz</a>
+        <a href="APsem2_p6reference.html">References</a>
+    </div>
+  </table>
+
+
+<header> Magnetism </header>
+<p id="definition"><b>Definition:</b>  </p>
+<p id="defenition2">Magnetism is the force exerted by magnets when they attract or repel each other.</p>
+<img src="images/LIKE ATTRACT.png" width="650" height="400">
+<img src="images/UNLIKE REPEL.png" width="650" height="400">
+<br>
+<p id="poles"><b>The strongest parts of magnets are called poles:</b> <li>North Pole</li><li>South Pole</li></p>
+<img src="images/N ans S poles.png" width="1300" height="250">
+
+<p id="permanent"><b><u>Permanent Magnets</u></b>
+  <br>
+  Permanent magnets are made from magnetically hard materials such as steel. A magnetically hard material keeps its magnetism once it has been magnetized. Permanent magnets are takes longer to magnetize and demagnetize.
+</p>
+
+<p id="temporary"><b><u>Temporary Magnets</u></b>
+  <br>
+  Temporary magnets are made from magnetically soft materials such as iron. A magnetically soft material lose their magnetism easily and are therefore useful as temporary magnets. Temporary magnets are easier to magnetize and demagnetize.
+</p>
+
+
+<p><b>Magnetic Field</b></p>
+<p id="magneticfield">The volume of space around a magnet is called a magnetic field.
+  <li>Field lines closer to each other -> stonger magnetic field</li>
+  <li>Magnetic fields "travel" from N(north) -> S(south)</li>
+  <li>(x) -> inwards direction</li>
+  <li>(.) -> outwards direction</li>
+  <img src="images/magnetic field.png" width="500" height="350" class="fieldimg">
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p><b>Induced Magnetism</b></p>
+<p id="inducedmagnetism">If we place an object made from magnetic materials (ex. iron nail) inside a magnetic field it becomes a magnet.
+  <li>Magnetically soft material:<br> It's induced magnetism is temporary and disappears if the permanent magnet is removed</li>
+  <br>
+  <li>Magnetically hard material:<br> It will remain some of it's magnetism after the magnet is removed</li>
+  <img src="images/induced magnetism.png" width="1300" height="550">
+</p>
+
+<p><b>Electromagnetism</b></p>
+<p id="electromagnetism">When there is a current in a wire a magnetic field is created around it. This is called electromagnetism. The field around the wire is quite weak and circular in shape.
+  
+  <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+  border-radius: 8px; will-change: transform;">
+   <iframe loading="lazy" style="position: absolute; width: 95%; height: 95%; top: 0; left: 40px; border: none; padding: 0;margin: 0;"
+     src="https://www.canva.com/design/DAGdXPMArTU/sU0x7nmWsR_XwJkXh5d8Iw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+   </iframe>
+ </div>
+ 
+</p>
+
+<p><b>The Electric Bell</b></p>
+  <div style="position:relative; width: 40%; height:70%; margin-left: 40px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+  overflow: hidden; border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; 
+    top: 0; left: 0; border: none; padding: 0; margin: 0; aspect-ratio: 16/9;" 
+    src="https://www.canva.com/design/DAGdcgp6CW8/MAs3jkXMUJm9R6I2P1GxwA/watch?embed" 
+    allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<p id="electricbell">When the bell is pushed the circuit is complete and the current flows through the circuit. As a result the soft iron core becomes magnetized andd attracts the iron armature that is attached to the hammer, the hammer strikes the bell. At the same time a gap is created at the contact screw. The circuit is now incomplete and the current stops. The electromagnet is now turned off so the springy metal strip pulls the armature up to it's original position. The circuit is again complete and the whole process repeats again.
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p><b>Lorenz Force</b></p>
+<p id="lorenzforce">When a charged particle moves through a magnetic field it experiences a force called Lorenz Force.
+  <img src="images/LorenzForce.png" width="1240" height="470">
+</p>
+
+<br>
+<p><b>DC Electric Motor</b></p>
+<p id="electricmotor">When there's current in the loops of wire, one side of it will experience a force pushing it upwards. The other side will feel a force pushing it downwards, causing the loop to rotate.
+</p>
+<img src="images/electricmotor.png" width="700px" height="450px" class="electricmotorimg">
+</body>
+</html>

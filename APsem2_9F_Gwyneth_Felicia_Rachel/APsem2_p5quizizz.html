@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+<title>Summary</title>  
+
+<style>
+ header{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    padding: 20px;
+    background-color: rgba(29, 38, 122, 0.808);
+    color:#ffffff;
+    border: 2px solid rgba(29, 38, 122, 0.808);
+ }
+ body{
+    background-color: #ffffff; 
+    background-image: url("images/homepage background.png");
+    background-size: 1500px 160px;
+    background-repeat: repeat-x;
+ }
+ .hyperlink{
+        font-size: 25px;
+        padding: 10px;
+        text-decoration: none;
+        position: relative;
+        margin-top: 5px;
+        text-align: right;
+        word-spacing: 5px;
+    }
+    
+    a {
+        text-decoration: none;
+        border: 2px solid rgba(29, 38, 122, 0.808);
+        background-color: rgba(29, 38, 122, 0.808);
+        color:#ffffff;
+        font-family: monospace;
+        padding: 2px;
+        letter-spacing: 1px;
+    }
+
+    p {
+      font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 40px;
+    }
+
+    #p2 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 10px;
+    }
+
+    #continue{
+      position: fixed;
+      bottom: 0px;
+      right: 0px;
+      padding: 20px;
+      background-color: rgba(29, 38, 122, 0.808);
+      border: 2px solid rgba(29, 38, 122, 0.808);
+      font-size: 35px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffffff;
+      font-weight: bold;
+      font-style: italic;
+      z-index: 9999;
+        }
+
+        #continue:hover {
+            background-color: rgba(23, 40, 190, 0.808);
+        }
+</style>
+<div>
+  <button id="continue">CONTINUE</button>
+</div>
+
+<script>
+document.getElementById("continue").addEventListener("click", function () {window.location.href = "APsem2_p6reference.html";})
+</script>
+</head>
+<body>
+
+  <table border="0px">
+    <div class="hyperlink">
+      <a href="index.html">Home</a>
+        <a href="APsem2_p1momentum.html">Momentum</a>
+        <a href="APsem2_p2thermalphysics.html">Thermal Physics</a>
+        <a href="APsem2_p3magnetism.html">Magnetism</a>
+        <a href="APsem2_p4dynamicelectricity.html">Dynamic Electricity</a>
+        <a href="APsem2_p5quizizz.html">Quizizz</a>
+        <a href="APsem2_p6reference.html">References</a>
+    </div>
+  </table>
+
+  <header>Quizizz</header>
+
+<p><b> Quizizz</b></p>
+<p id="p2">Now that you've learned the theory, test your understanding with this Quizizz!</p>
+<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;"><iframe src="https://quizizz.com/embed/quiz/67a0ae067105e09fe521e44a" title=" - Quizizz" style="flex:1;" frameBorder="0" allowfullscreen></iframe><a href="https://quizizz.com/admin?source=embedFrame" target="_blank">Explore more at Quizizz.</a></div>
+<p><b> Theory In PDF Format</b></p>
+<p id="p2">Here's the summary of the theory in PDF format.</p>
+<iframe src="images/AP TIK Physics Content.pdf" width="100%" height="100%">
+</body>
+</html>

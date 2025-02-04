@@ -1,0 +1,222 @@
+<html lang="en">
+<head>
+<title>Momentum</title>  
+<style>
+ header{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    padding: 20px;
+    background-color: rgba(29, 38, 122, 0.808);
+    color:white;
+    border: 2px solid rgba(29, 38, 122, 0.808);
+  }
+
+
+  body{
+    background-color: #ffffff;
+    background-image: url("images/momentum.png");
+    background-size: 1500px 160px;
+    background-repeat: repeat-x;
+  }
+  .hyperlink{
+        font-size: 25px;
+        padding: 10px;
+        text-decoration: none;
+        position: relative;
+        margin-top: 5px;
+        text-align: right;
+        word-spacing: 5px;
+    }
+  a{
+    text-decoration: none;
+    border: 2px solid rgba(29, 38, 122, 0.808);
+    background-color: rgba(29, 38, 122, 0.808);
+    color:white;
+    font-family: monospace;
+    padding: 2px;
+    letter-spacing: 1px;
+  }
+  .heading{
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  p{
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    }
+  img{
+    width: relative;
+    height: 230px;
+  }
+  .formula1{
+    position: absolute;
+    margin-left: 1030px;
+    top: 310px;
+  }
+  .formula2{
+    position: absolute;
+    margin-left: 1030px;
+    top: 690px;
+  }
+  .explanation{
+    position: relative;
+    margin-left: 160px;
+  }
+  .f{
+    background-color: lightsteelblue;
+    margin-right: 415px;
+    margin-left: 60px;
+    padding: 5px;
+    line-height: 40px;
+  }
+  .f1{
+    font-size: 20px;
+    position: absolute;
+    left: 410px;
+    top: 840px;
+    text-decoration: underline;
+    background-color: lightsteelblue;
+    padding: 2px;
+    line-height: 24px;
+  }
+  .f2{
+    font-size: 20px;
+    position: absolute;
+    left: 435px;
+    top: 865px;
+    background-color: lightsteelblue;
+    padding: 2px;
+    line-height: 20px;
+  }
+  .f3{
+    font-size: 20px;
+    position: absolute;
+    left: 80px;
+    top: 875px;
+    text-decoration: underline;
+    background-color: lightsteelblue;
+    padding: 2px;
+    line-height: 24px;
+  }
+  .f4{
+    font-size: 20px;
+    position: absolute;
+    left: 125px;
+    top: 900px;
+    background-color: lightsteelblue;
+    padding: 2px;
+    line-height: 20px;
+  }
+  .simulation{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  #continue{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+    background-color: rgba(29, 38, 122, 0.808);
+    border: 2px solid rgba(29, 38, 122, 0.808);
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+    z-index: 9999;
+   }
+   #continue:hover{
+    background-color: rgba(23, 40, 190, 0.808);
+   }
+  </style>
+
+
+<div>
+  <button id="continue">CONTINUE</button>
+</div>
+
+
+<script>
+  document.getElementById("continue").addEventListener("click", function() {window.location.href = "APsem2_p2thermalphysics.html"})
+</script>
+
+
+</head>
+
+
+<body>
+  <table border="0px">
+    <div class="hyperlink">
+      <a href="index.html">Home</a>
+        <a href="APsem2_p1momentum.html">Momentum</a>
+        <a href="APsem2_p2thermalphysics.html">Thermal Physics</a>
+        <a href="APsem2_p3magnetism.html">Magnetism</a>
+        <a href="APsem2_p4dynamicelectricity.html">Dynamic Electricity</a>
+        <a href="APsem2_p5quizizz.html">Quizizz</a>
+        <a href="APsem2_p6reference.html">References</a>
+    </div>
+  </table>
+
+
+
+
+<header>Momentum</header>
+<div class="heading">Definition:</div>
+<p>Momentum is the product of a particle’s mass and its velocity, it’s a measure of how difficult it is to stop a moving object possessed by masses in motion. </p>
+<div class="formula1"><img src="images/momentumformula1.png"></div>
+<p class="f">Momentum, p (kg m/s) = mass, m (kg) x velocity, v (m/s) <br> <b>p = mv</b></p>
+<br>
+<br>
+
+
+
+
+<div class="heading">Momentum & Acceleration</div>
+<p>Newton's 2nd Law of Motion discovered that the rate of change of momentum is proportional to the force applied. When an unbalanced force acts on a moving object, it causes acceleration and a change in the momentum.</p>
+<div class="formula2"><img src="images/momentumformula2.png"></div>
+<div class="description">
+  <p>Initial momentum = mu</p>
+  <p>Final momentum = mv</p>
+  <p>Change in momentum = (mv - mu) or Δp</p>
+</div>
+<p class="f">Force, F, rate of increase of p = <br> <b>F =</b> </p>
+<p class="f1">change in p, (mv - mu)</p>
+<p class="f2">time taken, t (s)</p>
+<p class="f3"><b>(mv - mu)</b></p>
+<p class="f4"><b>t</b></p>
+<br>
+<div class="explanation"><img src="images/newton2nd.png"></div>
+<br>
+<br>
+
+
+<div class="heading">Momentum Conservation</div>
+<div style="position: relative; width: 100%; padding-top: 56.25%; margin: 25px 0;">
+  <iframe loading="lazy"
+    style="position: absolute; width: 95%; height: 95%; top: 0; left: 40px; border: none;"
+    src="https://www.canva.com/design/DAGd4Ex7Wp8/xAxSkF3CiEvGdY8XV5D9nQ/view?embed"
+    allow="fullscreen">
+  </iframe>
+</div>
+<div class="heading">Simulation</div>
+<p>Now that you have learned about momentum, explore deeper with this collision lab simulation!</p>
+<iframe src="https://phet.colorado.edu/sims/html/collision-lab/latest/collision-lab_all.html"
+        width="550"
+        height="350"
+        style="margin-left:40px; margin-bottom: 40px;"
+        allowfullscreen>
+</iframe>
+
+
+</body>
+</html>
+

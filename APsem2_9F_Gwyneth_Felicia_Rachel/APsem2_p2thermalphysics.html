@@ -1,0 +1,294 @@
+<html lang="en">
+<head>
+<title>Thermal Physics</title>  
+<style>
+
+   header{
+      text-align: center;
+      font-size: 40px;
+      font-family: monospace;
+      padding: 20px;
+      background-color: rgba(29, 38, 122, 0.808);
+      color:#ffffff;
+      border: 2px solid rgba(29, 38, 122, 0.808);
+   }
+   body{
+      background-color: #ffffff;
+      background-image: url("images/thermalphysics.png");
+      background-size: 1500px 160px;
+      background-repeat: repeat-x;
+   }
+   .hyperlink{
+        font-size: 25px;
+        padding: 10px;
+        text-decoration: none;
+        position: relative;
+        margin-top: 5px;
+        text-align: right;
+        word-spacing: 5px;
+    }
+   
+    a {
+        text-decoration: none;
+        border: 2px solid rgba(29, 38, 122, 0.808);
+        background-color: rgba(29, 38, 122, 0.808);
+        color:white;
+        font-family: monospace;
+        padding: 2px;
+        letter-spacing: 1px;
+    }
+
+
+    p {
+      font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 40px;
+    }
+
+    li{
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    #Definition{
+      font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;      
+    }
+    #Definition2{
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    #StatesOfMatter{
+      font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+   #statesmatter {
+    font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+   }
+   #soliqgas {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 1250px
+   }
+   #particlemovement{
+    font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+   }
+   #particlemove{
+    font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+   }
+   #particlemove2{
+    font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 600px;
+      text-align: justify;
+   }
+   .heated {
+    position: absolute;
+    margin-left: 780px;
+    top: 1250px;
+   }
+   #SpecificHC {
+    font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+      font-weight: bold;
+   }
+   #SHC {
+    font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+   }
+   #Formula{
+    font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+      font-weight: bold;
+    }
+    .SHCformula {
+    position: absolute;
+    margin-left: 40px;
+    top: 1780px;
+    }
+    #SHCformula2 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 400px;
+      text-align: left;
+    }
+    #example {
+      font-family: monospace;
+      font-size: 20px;
+      margin-right: 40px;
+      text-align: justify;
+      margin-left: 40px;
+    }
+    #thermalexpansion {
+      font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+      font-weight: bold;
+    }
+    #thermalexpansion2 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    .CTEformula {
+      position: absolute;
+      margin-left: 850px;
+      top: 2230px;
+    }
+    #CTEformula1 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      text-align: left;
+    }
+    #SLH {
+    font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+   }
+   #SLH2 {
+    font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+   }
+   #fusion{
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+      padding: 15px;
+      border: 2px solid #000000;
+    }
+    #vaporisation{
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+      border: 2px solid #000000;
+      padding: 15px;
+    }
+    .SLHformula {
+      position: absolute;
+      margin-left: 750px;
+      top: 2900px;
+    }
+    #SLHformula2 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+    }
+   #continue{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+    background-color: rgba(29, 38, 122, 0.808);
+    border: 2px solid rgba(29, 38, 122, 0.808);
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+    z-index: 9999;
+   }
+   #continue:hover{
+    background-color: rgba(29, 38, 122, 0.808);
+   }
+
+</style>
+
+<div>
+  <button id="continue">CONTINUE</button>
+</div>
+
+<script>
+  document.getElementById("continue").addEventListener("click", function() {window.location.href = "APsem2_p3magnetism.html"})
+</script>
+</head>
+<body>
+
+
+  <table border="0px">
+    <div class="hyperlink">
+      <a href="index.html">Home</a>
+        <a href="APsem2_p1momentum.html">Momentum</a>
+        <a href="APsem2_p2thermalphysics.html">Thermal Physics</a>
+        <a href="APsem2_p3magnetism.html">Magnetism</a>
+        <a href="APsem2_p4dynamicelectricity.html">Dynamic Electricity</a>
+        <a href="APsem2_p5quizizz.html">Quizizz</a>
+        <a href="APsem2_p6reference.html">References</a>
+    </div>
+  </table>
+
+
+<header> THERMAL PHYSICS </header>
+<br> <br> <p id="Definition"><b>Definition:</b></p>
+<p id="Definition2"> Thermal Physics is the relationship between heat, temperature, and energy, and their interactions with matter. </p>
+<br>
+
+<p id="StatesOfMatter"><b>States Of Matter</b></p> 
+<p id="statesmatter">There are three states of matter:</p>
+<img id="Soliqgas" src="images/soliqgas.png">
+<br> 
+<p id="particlemovement"><b>Particle Movement</b></p>
+<p id="particlemove">Particles can move faster or slower depending on the temperature. </p>
+  <p id="particlemove2"> When an object is heated, it gains an increase in its internal energy. The higher the temperature, the higher the average internal energy.
+  With more energy, molecules will vibrate faster. In solids, molecules vibrate faster and take up more space, which causes expansion.</p>
+  <div class="heated"><img src="images/coldvshot.png" width="540px"></div>
+  <br>
+<p id="SpecificHC">Specific Heat Capacity</p>
+<p id="SHC">The specific heat capacity of an object or substance is the amount of energy needed to heat 1 kilogram of a substance by 1°C. </p>
+<p id="formula"><b>Formula:</b></p>
+<p id="SHCformula2">Where: <br> Q = heat energy <br> m = mass (kg) <br> c = SHC <br> ΔT = change in temperature (°C) </p> 
+<div class="SHCformula"><img src="images/SHCformula.png" width="300"> </div>
+<p id="example"><b>For example:</b> <br> Water has a specific heat capacity of 4200J/kg°C. This means that to heat 1kg of water by 1°C, 4200 Joules of energy are needed.</p>
+
+<p id="thermalexpansion"> Coefficient of Thermal Expansion</p>
+<p id="thermalexpansion2">The coefficient of thermal expansion describes how the size of an object changes with a change in temperature. The higher an object's CTE, the larger the object will expand when heated.</p>
+<p id="formula">Formula:</p>
+<p id="CTEformula1">Where: <br> ΔL = change in length (m) <br> L₀ = Original length (m) <br> CTE (Coefficient of Thermal Expansion) (/°C) <br> ΔT = change in temperature (°C)</p>
+<div class="CTEformula"><img src="images/CTEformula.png" width="400"> </div>
+<p id="SLH"><b>Specific Latent Heat</b></p>
+<p id="SLH2">Specific Latent Heat or SLH is the amount of energy required to change 1kg of one substance from a particular state to another.</p>
+<p id="Fusion"><b><u>Specific Latent Heat of Fusion</u></b>
+  <br>
+  The specific latent heat of fusion is one of 2 types of specific latent heat. It is the energy change when a substance changes between a solid or liquid. (Melting or freezing)
+ </p>
+<p id="Vaporisation"><b><u>Specific Latent Heat of Vaporisation</u></b>
+  <br>
+  The specific latent heat of vaporisation is the 2nd type of specific latent heat. It is the energy change when a substance changes between a liquid and a gas. (vaporisation or condensation)
+</p>
+<p id="Formula">Formula:</p>
+<div class="SLHformula"><img src="images/SLHformula.png" width="400"></div>
+<p id="SLHformula2"><b>Where:</b> <br> E = Energy required/released (J) <br> m = mass (kg) <br> L = Specific Latent Heat (J/kg)</p>
+</body>
+</html>

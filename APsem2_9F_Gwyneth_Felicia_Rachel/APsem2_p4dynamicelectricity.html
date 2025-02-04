@@ -1,0 +1,316 @@
+<html lang="en">
+<head>
+<title>Dynamic Electricity</title>  
+
+<style>
+ header{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    padding: 20px;
+    background-color: rgba(29, 38, 122, 0.808);
+    color:#ffffff;
+    border: 2px solid rgba(29, 38, 122, 0.808);
+ }
+ body{
+    background-color: #ffffff; 
+    background-image: url("images/dynamicelectricity.png");
+    background-size: 1500px 160px;
+    background-repeat: repeat-x;
+ }
+ .hyperlink{
+        font-size: 25px;
+        padding: 10px;
+        text-decoration: none;
+        position: relative;
+        margin-top: 5px;
+        text-align: right;
+        word-spacing: 5px;
+    }
+    
+    a {
+        text-decoration: none;
+        border: 2px solid rgba(29, 38, 122, 0.808);
+        background-color: rgba(29, 38, 122, 0.808);
+        color:#ffffff;
+        font-family: monospace;
+        padding: 2px;
+        letter-spacing: 1px;
+    }
+
+    p {
+      font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 40px;
+    }
+
+    #defenition2 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    li {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+    #scircuit {
+      font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 40px;
+    }
+
+    #scircuit2 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 750px;
+    }
+
+    #pcircuit {
+      font-family: monospace;
+      font-size: 25px;
+      margin-left: 750px;
+      margin-right: 40px;
+      margin-top: -135px;
+    }
+
+    #pcircuit2 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 750px;
+      margin-right: 40px;
+    }
+
+    #spcircuit {
+      font-family: monospace;
+      font-size: 25px;
+      margin-left: 750px;
+      margin-right: 40px;
+      margin-top: -369px;
+    }
+    #textbox {
+      border: 2px solid black;
+      padding: 10px;
+    }
+
+    #voltmeter {
+      font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 40px;
+    }
+
+    #voltmeter2 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 750px;
+    }
+
+    #ammeter{
+      font-family: monospace;
+      margin-left: 750px;
+      margin-right: 40px;
+      margin-top: -207px;
+    }
+    #ammeter2 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 750px;
+      margin-right: 40px;
+    }
+
+    #electricfield {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+    #ohmslaw {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+    .ohmslawimg {
+      margin-left: 700px;
+      margin-top: -200px;
+    }
+
+    #kcl {
+      font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 40px;
+    }
+
+    #kcl2 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 750px;
+    }
+    #kvl {
+      font-family: monospace;
+      margin-left: 750px;
+      margin-right: 40px;
+      margin-top: -140px;
+    }
+    #kvl2 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 750px;
+      margin-right: 40px;
+    }
+    #simulations {
+      font-family: monospace;
+      font-size: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    #simulations2 {
+      font-family: monospace;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    #continue{
+      position: fixed;
+      bottom: 0px;
+      right: 0px;
+      padding: 20px;
+      background-color: rgba(29, 38, 122, 0.808);
+      border: 2px solid rgba(29, 38, 122, 0.808);
+      font-size: 35px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffffff;
+      font-weight: bold;
+      font-style: italic;
+      z-index: 9999;
+        }
+
+        #continue:hover {
+            background-color: rgba(23, 40, 190, 0.808);
+        }
+</style>
+<div>
+  <button id="continue">CONTINUE</button>
+</div>
+
+<script>
+document.getElementById("continue").addEventListener("click", function () {window.location.href = "APsem2_p5quizizz.html";})
+</script>
+</head>
+<body>
+
+  <table border="0px">
+    <div class="hyperlink">
+      <a href="index.html">Home</a>
+        <a href="APsem2_p1momentum.html">Momentum</a>
+        <a href="APsem2_p2thermalphysics.html">Thermal Physics</a>
+        <a href="APsem2_p3magnetism.html">Magnetism</a>
+        <a href="APsem2_p4dynamicelectricity.html">Dynamic Electricity</a>
+        <a href="APsem2_p5quizizz.html">Quizizz</a>
+        <a href="APsem2_p6reference.html">References</a>
+    </div>
+  </table>
+
+<header> Dynamic Electricity </header>
+<p id="definition"><b>Definition:</b>  </p>
+<p id="defenition2">Dynamic electricity is the flow of electric charges through a conductor, in other words an electric current.
+<img src="images/dynamicelectricitysymbol.png" width="1300" height="250">
+<li>A battery provides electrical potential energy</li>
+<li>A battery supplies (v) joule of energy for each coloumb of charge</li>
+</p>
+<br>
+<p id="scircuit"><b>Series Circuit</b>  </p>
+<p id="scircuit2"> A series circuit is where the components are connected one after another.</p>
+
+<p id="pcircuit"><b>Parallel Circuit</b>  </p>
+<p id="pcircuit2"> A parallel circuit is where the components are side by side.</p>
+<img src="images/seriesandparallelcircuit.png" width="1320" height="250">
+
+<p id="textbox"><b>Tutorial On How To Create A Circuit Using Physics Lab</b> </p>
+<p id="scircuit"><b>Simple Circuit</b>  </p>
+<div style="margin-left: 40px;"><iframe width="560" height="315" src="https://www.youtube.com/embed/_9qE7Ei1HB4?si=rhcBM7NhEH8ovfjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+  <p id="spcircuit"><b>Series & Parallel Circuit</b>  </p>
+  <div style="margin-left: 750px">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JIlUo1677VY?si=QLNl988iA7CEkm_K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<p id="voltmeter"><b>Voltmeter</b>  </p>
+<p id="voltmeter2">The voltmeter is a measurement device used to measure voltage in electrical circuits or electronic devices. It is commonly employed to measure the voltage across a circuit or component, typically expressed in volts.</p>
+
+<p id="ammeter"><b>Ammeter</b>  </p>
+<p id="ammeter2"> An ammeter is a measuring instrument used in electrical circuits. Its primary purpose is to measure electric current and express the intensity of the current. Electric current represents the speed of charged particles passing through a circuit and is typically measured in amperes (A).</p>
+<p id="textbox"><b>Electric Field</b> </p>
+<img src="images/Electric Field.png" width="1320" height="500">
+<p id="electricfield">
+  <li>The direction of the electric field moves from positive to negative</li>
+  <li>The direction of electron movement moves from negative to positive.</li>
+  <li>Positive charge will move with the electric field</li>
+  <li>Negative charge will move against the electric field</li>
+</p>
+<img src="images/ElectricFieldandElectronMovement.png" width="1320" height="250">
+<p id="textbox"><b>Ohm's Law</b> </p>
+<p id="ohmslaw">
+  Ohm's law states the relationship between electric current <br>and potential difference. The current that flows through most <br>conductors is directly proportional to the voltage applied to<br> it.
+  <br>
+  <br>
+  <b>V = voltage (V)
+  <br>
+  I = current (A)
+  <br>
+  R = resistance (Ω)</b>
+  <img src="images/ohmslaw.png" width="500" height="400" class="ohmslawimg">
+</p>
+<p id="textbox"><b>Kirchoff's Law</b> </p>
+<p id="kcl"><b>Kirchoff's Current Law (KCL)</b>  </p>
+<p id="kcl2">The total current entering the junction equals to the total current leaving the junction.</p>
+
+<p id="kvl"><b>Kirchoff's Voltage Law (KVL)</b>  </p>
+<p id="kvl2"> The total electromotive force (emf) in a closed circuit is equal to the sum of the potential differences in the circuit</p>
+<img src="images/kirchoffslaw.png" width="1320" height="500">
+  
+<p id="simulations"><b>Simulations</b></p>
+<p id="simulations2">After learning about dynamic electricity, you can explore these interactive simulations to deepen your understanding</p>
+<iframe src="https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_en.html"
+        width="550"
+        height="350"
+        style="margin-left:40px; margin-bottom: 40px;"
+        allowfullscreen>
+</iframe>
+<iframe src="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab_en.html"
+        width="550"
+        height="350"
+        style="margin-left:40px; margin-bottom: 40px;"
+        allowfullscreen>
+</iframe>
+<iframe src="https://phet.colorado.edu/sims/html/circuit-construction-kit-ac/latest/circuit-construction-kit-ac_en.html"
+        width="550"
+        height="350"
+        style="margin-left:40px; margin-bottom: 40px;"
+        allowfullscreen>
+</iframe>
+<iframe src="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_en.html"
+        width="550"
+        height="350"
+        style="margin-left:40px; margin-bottom: 40px;"
+        allowfullscreen>
+</iframe>
+
+
+</body>
+</html>
